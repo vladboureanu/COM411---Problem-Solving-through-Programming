@@ -1,4 +1,5 @@
 #Display message to standard output in multiple lines of code
+
 print("System Failure Iminent!")
 print("System Reboot has initiated...\n")
 print("...rebooting sensory system")
