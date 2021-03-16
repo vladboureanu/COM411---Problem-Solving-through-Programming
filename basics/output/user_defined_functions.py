@@ -1,5 +1,5 @@
 def greet_user():
-  print("please eneter yourt name")
+  print("please enter your name")
   name=input()
   print("Hello ", name)
 
