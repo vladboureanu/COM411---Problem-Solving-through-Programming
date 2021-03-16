@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def isPrime(x):
   for i in range(2,x):
     if x%i == 0:
@@ -31,3 +32,17 @@ print(encrypt(), encrypt())
  # print(f"The number {x} is prime!")
 #else:
   #print("The number was not prime!")
+=======
+def display_box(name):
+    message = "* Hello {} *".format(name)
+    print("*" * len(message))
+    print(message)
+    print("*" * len(message))
+
+def greet_user():
+    print("Please enter your name")
+    name=input()
+    display_box(name)
+
+greet_user()
+>>>>>>> c8daf372391857039f65a30bd821db8dd3e1433d
