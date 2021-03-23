@@ -1,10 +1,9 @@
-#Program that imitates a small database in the sense that it can:
-#insert new students and their mark
+#Program that imitates a small database in the sense that it can: 
+#insert new student and their mark
 #keep continually add students
 #print out student's name and their mark
-#avewrage mark of all students
+#average mark of all students
 #find the maximum mark among all students
-
 
 def generate_stds():
   print("Enter the name: ")
@@ -23,6 +22,7 @@ def all_stds():
       break
   return all_students
 
+
 def print_students(lista):
   for std in lista:
     print(f"{std[0]} earned a grade {std[1]}")
@@ -35,5 +35,5 @@ def avr_mark(lista):
   return total/len(lista)
 
 listb = all_stds()
-print_students(all_stds)
-print(avr_mark(all_stds))
+print_students(listb)
+print(avr_mark(listb))
